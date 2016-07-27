@@ -1,0 +1,43 @@
+.grey-background {
+  background-color: grey;
+
+}
+.grey-background a{
+  color: white;
+}
+input.ng-invalid.ng-dirty.form-validation {
+  background-color: red;
+}
+input.ng-valid.ng-dirty.form-validation {
+  background-color: greenyellow;
+}
+.image-container img {
+    width: 100%;
+
+}
+.navbar {
+   border: none!important;
+}
+body {
+     background-color: black!important;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn3 {
+    color: darkorange!important;
+    width: 65px;
+}
+.pull-right .edit {
+     margin-right: 15px;
+}
+.navbar-header:hover {
+    color: blue!important;
+}
+.nav a {
+    text-transform: uppercase;    
+}
+ul .nav-tabs li {
+    margin-right: 2px!important;
+}
+.btn {
+     color:orangered;
+}

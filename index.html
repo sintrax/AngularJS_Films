@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Artist</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body ng-app="musicApp" ng-controller="PageController">
+
+    <div class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="artist-details.html" class="navbar-brand">Music Artist</a>
+
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="edit-artist.html">Add Artist</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                    Drasti
+            </div>
+          </div>
+        </div>
+
+        <footer class="text-center">
+            <hr />
+            <small>
+                Author: {{ author }} Date: {{ date.year }} / {{ date.month}} / {{ date.day }}
+            </small>
+        </footer>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/PageController.js">
+
+    </script>
+  </body>
+</html>
